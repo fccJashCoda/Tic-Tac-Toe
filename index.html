@@ -12,10 +12,10 @@
         <h1>Tic Tac Toe</h1>
         <hr>
 
-        <div id="startGameArea">
+        <div id="gameLauncher">
           <input type="text" id="player1" placeholder="Player1">
           <input type="text" id="player2" placeholder="Player2">
-          <button>Start</button>
+          <button id="start-game">Start</button>
         </div>
 
         <div id="gamearea">
@@ -24,20 +24,13 @@
           </div>
 
           <div id="gamelog">
-            <h2>Player x wins!</h2>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
-            <p>player x wins!</p>
+            <h3 id="matchup"></h3>
+            <h2 id="displayWinner"></h2>
+            <button id="play-again">Play Again?</button>
           </div>
         </div>
       </div>
 
-      <script src="js\regular.js"></script>
+      <script src="js\main.js"></script>
 </body>
 </html>
